@@ -1,0 +1,13 @@
+{
+  "name": "trampss-audiosynth",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env BABEL_ENV=cjs babel --ignore \"*.spec.js\" ./src/ --out-dir build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "cross-env": "^4.0.0"
+  }
+}
